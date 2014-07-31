@@ -1,0 +1,308 @@
+ul li{
+list-style-type: none;
+}
+
+.nav{
+margin-top:-16px;
+margin-left: 55px;
+}
+
+.nav2{
+margin-top:-16px;
+margin-left: 31px;
+}
+
+.nav2 ul li, .nav ul li{
+	position: fixed;
+	margin-top: 0px;
+	z-index: 10000000000000;
+	font-size: 2.5em;
+	padding: 3px;
+	display: inline;
+	background-color: rgb(85,35,25);
+	opacity: 0.86;
+	font-family: Istok Web;
+	font-weight: 700;
+	font-style: italic;
+}
+
+html, body{
+	height: 1856px;
+	width: 1536px;
+	margin-top: 0;
+	margin-left: 0;
+	color: #0d0b1a;
+	background-color: #F7F7F7;
+}
+
+.headerContainer{
+	min-height: 619px;
+	width: 1536px;
+	position: relative;
+}
+
+.header {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.contentContainer{
+	height: 1256px;
+	width: 1536px;
+	position: relative;
+	display: none;
+	overflow: auto;
+	background-color: #F7F7F7;
+	margin-bottom: 50px;
+}
+
+.img1 {
+background: url("images/image1.png");
+background-repeat: none;
+}
+
+.img2 {
+background: url("images/image2.png");
+background-repeat: none;
+}
+
+.img3 {
+background: url("images/image3.png");
+background-repeat: none;
+}
+
+.img4 {
+background: url("images/image4.png");
+background-repeat: none;
+}
+
+.img5 {
+background: url("images/image5.png");
+background-repeat: none;
+}
+
+
+
+.imgPos1 {
+	background-position: 0px 0px;
+}
+
+.imgPos2 {
+	background-position: 0px -619px;
+}
+
+.imgPos3 {
+	background-position: 0px -1236px;
+}
+
+
+.content {
+	min-height:100%;
+	width: 100%;
+	position: absolute;
+	display:none;
+}
+
+.z4{
+	z-index: 1000;
+}
+
+.z3{
+	z-index: 999;
+	display: none;	
+}
+
+.z2{
+	z-index: 998;
+	display: none;	
+}
+
+.z1{
+	z-index:997;
+	display: none;
+}
+
+.z0{
+	z-index: 996;
+	display: none;
+}		
+
+.contentContainer p{
+font-family: Noto Sans;
+font-weight: 400;
+font-size: 1.8em;
+line-height: 1.9em;
+width: 1200px;
+height: 100%;
+margin: 0px 0px 0px 155px;
+padding: 0px;
+}
+
+.indent{
+text-indent: -10px;
+}
+
+.italic{
+font-family: Noto Sans;
+font-weight: 400;
+font-style: italic;
+}
+
+h1 a{
+font-family: Istok Web;
+font-weight: 700;
+color: #0d0b1a;
+font-size: 1.5em;
+font-style: italic;
+top: 100px;
+left: 96px;
+position: relative;
+text-decoration: none;
+}
+
+.index{
+font-family: Noto Sans;
+font-weight: 400;
+font-size: 1.2em;
+line-height: 1.75em;
+width: 70%;
+height: 100%;
+margin-top: 110px;
+margin-left: 125px;
+margin-bottom: 0px;
+padding: 0px;
+color:rgb(213,53,18);
+}
+
+.index2{
+font-family: Noto Sans;
+font-weight: 400;
+font-size: 1.10em;
+line-height: 1.75em;
+width: 70%;
+height: 100%;
+margin-left: 125px;
+margin-top: -10px;
+padding: 0px;
+
+}
+
+ol {
+list-style-type: lower-alpha;
+margin-left: 200px;
+font-family: Noto Sans;
+font-weight: 400;
+font-size: 1.25em;
+}
+
+
+a{
+text-decoration: none;
+color: rgb(244, 129, 28);
+line-height: inherit;
+font-size: 75%;
+}
+
+blockquote{
+font-family: Noto Sans;
+font-weight: 400;
+font-size: 1.65em;
+line-height: 1.9em;
+width: 60%;
+height: 100%;
+margin:10px 0 10px 230px;
+}
+
+.bold{
+font-weight:700;
+}
+
+video{
+margin:0 auto;
+width: 640px;
+height: 360px;
+margin-left:468px;
+margin-right: 468px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+
+figure{
+margin-left: 155px;
+margin-bottom: 20px;
+}
+
+figcaption{
+padding: 0px;
+font-family: Noto Sans;
+font-weight: 400;
+font-size: 1em;
+text-transform: uppercase;
+}
+
+figure img{
+height: 300px;
+}
+
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve, #thirteen{
+float: left;
+font-size: 1em;
+font-family: Noto Sans;
+font-weight: 700;
+margin-right: 50px;
+text-align: right;
+width: 50px;
+
+}
+
+#onea, #twoa, #threea, #foura, #fivea, #sixa, #sevena, #eighta, #ninea, #tena, #elevena, #twelvea, #thirteena{
+font-size: 1em;
+line-height: 1.7em;
+margin-left: 175px;
+font-style: italic;
+margin-top: 17px;
+margin-bottom: 15px;
+}
+
+.descrip{
+background-color: rgb(195, 191, 169);
+width: 1536px;
+padding: 0px;
+height: 55px;
+margin-bottom: 45px;
+}
+
+.descrip h2{
+font-family: Istok Web;
+font-weight: 400;
+font-size: 1.5em;
+line-height: 2.5em;
+margin-left: 155px;
+padding: 0px;
+margin-top: 0px;
+color: rgb(213, 53, 18);
+font-style: normal;
+letter-spacing: .1em;
+}
+
+.capital{
+font-family: Istok Web;
+font-size: 1.5em;
+text-transform: uppercase;
+color: #0d0b1a;
+font-style: normal;
+text-align: left;
+letter-spacing: normal;
+}
+
+p + p{
+text-indent: 2em;
+}
+
+blockquote + p + p{
+text-indent: 0px;
+}
